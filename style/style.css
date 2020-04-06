@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+.text-block1 {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(186, 212, 235);
+    padding: 10px;
+    box-sizing: border-box;
+    outline:  3px solid #e584c8;
+}
+.text-block1 li {
+    padding: 3px;
+}
+.text-block2 {
+    margin: 20px;
+    width: 700px;
+    height: 400x;
+    padding: 30px;
+    background-color: rgb(235, 206, 171);
+    border: 3px double #e65e10;
+    position: relative;
+}
+.text-block3 {
+    max-width: 1200px;
+    max-height: 500px;
+    padding: 10px;
+    background-image: url(../image/background.jpeg);
+    outline: 3px solid #e9849a;
+    margin-left: 35px;
+}
+.text-block4 {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: rgba(229, 157, 193, 0.548);
+    padding: 20px;
+    outline: 3px dashed #9b7095;
+    outline-offset: -7px;
+}
+.text-block5 {
+    max-width: 1000px;
+    margin-top: 45px;
+    margin-left: 150px;
+    box-sizing: border-box;
+    background-image: url(../image/background.jpeg);
+    padding: 12px;
+    outline: 4px inset #d6c4d8;
+}
+.text-block6 {
+    max-width: 850px;
+    max-height: 300px;
+    background-color: rgb(221, 233, 111);
+    position: relative;
+    margin: 40px;
+    padding: 25px;
+    border: 1px solid #999;
+}
+.block1 {
+    width: 100px;
+    height: 50px;
+    background-color: #c52121;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    z-index: 1;
+}
+.block2 {
+    width: 100px;
+    height: 50px;
+    background-color: #1fbe47;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+.block3 {
+    width: 100px;
+    height: 50px;
+    background-color: #393886;
+    position: absolute;
+    top: 65px;
+    left: 70px;
+}
